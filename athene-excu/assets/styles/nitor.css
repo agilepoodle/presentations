@@ -209,7 +209,46 @@ body {
   background-image: url('../images/office-dark.jpg');
   background-size: cover;
   background-position: 0px 0px;
-
+}
+.roles {
+  background-image: url('../images/roles-dark.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+.building-big {
+  background-image: url('../images/building-big-dark.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+.design {
+  background-image: url('../images/design-dark.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+.time {
+    background-image: url('../images/time.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+.cash {
+  background-image: url('../images/cash-dark.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+.laatuaika {
+  background-image: url('../images/laatuaika-dark.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+.rotaatio {
+  background-image: url('../images/rotaatio.png');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+.snakeoil {
+  background-image: url('../images/snake-oil-dark.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
 }
 .gears {
   background-image: url('../images/gears_10.svg');
@@ -248,10 +287,6 @@ ul li {
     left: 0 !important;
   }
 }
-
-
-
-
 
 /* specific for this presentation */
 
