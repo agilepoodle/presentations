@@ -220,6 +220,11 @@ body {
   background-size: cover;
   background-position: 0px 0px;
 }
+.shopping {
+  background-image: url('../images/shopping-dark.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
 .design {
   background-image: url('../images/design-dark.jpg');
   background-size: cover;
