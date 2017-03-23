@@ -69,9 +69,6 @@
   src: url('../fonts/Heuristica-Italic.otf')
 }
 
-
-
-
 body {
   font-family: 'Heuristica', serif;
 }
@@ -95,7 +92,7 @@ body {
   margin-left: 20px;
   box-shadow: 0 0 10px #777;
 }
-.remark-slide-content h1, h2, h3 {
+.remark-slide-content h1 {
   font-family: 'IndustryInc', sans-serif;
   font-weight: normal;
   font-size: 1.8em;
@@ -190,7 +187,7 @@ body {
   font-size: 2.2em;
 }
 .title.remark-slide-content h2 {
-  font-family: 'Heuristica';
+  font-family: 'Lato';
   font-size: 0.9em;
   text-transform: uppercase;
 }
