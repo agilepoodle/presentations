@@ -213,6 +213,37 @@ body {
   background-position: 0px 0px;
 }
 
+.tires {
+  background-image: url('../images/tires.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+
+.think {
+  background-image: url('../images/think.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+
+.single {
+  background-image: url('../images/single.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+
+.loop {
+  background-image: url('../images/loop.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+
+.fools {
+  background-image: url('../images/fools.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
+
+
 ul li {
   list-style-type: none;
   padding-left: 1em;
