@@ -243,6 +243,11 @@ body {
   background-position: 0px 0px;
 }
 
+.clog {
+  background-image: url('../images/clog.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
 
 ul li {
   list-style-type: none;
