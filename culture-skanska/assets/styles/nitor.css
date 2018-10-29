@@ -196,55 +196,45 @@ body {
 .section.bottom.remark-slide-content h1 {
   margin-bottom: 3em;
 }
-.borked {
-  background-image: url('../images/borked.jpg');
-  background-size: cover;
-  background-position: 0px 0px;
-}
-.clockwork {
-  background-image: url('../images/double-loop.jpg');
+
+.meet {
+  background-image: url('../images/meet.jpg');
   background-size: cover;
   background-position: 0px 0px;
 }
 
-.teddy {
-  background-image: url('../images/teddy.jpg');
+.together {
+  background-image: url('../images/together.jpg');
   background-size: cover;
   background-position: 0px 0px;
 }
 
-.tires {
-  background-image: url('../images/tires.jpg');
+.alchemy {
+  background-image: url('../images/alchemy.jpg');
   background-size: cover;
   background-position: 0px 0px;
 }
 
-.think {
-  background-image: url('../images/think.jpg');
+.leo {
+  background-image: url('../images/leo.jpg');
   background-size: cover;
   background-position: 0px 0px;
 }
 
-.single {
-  background-image: url('../images/single.jpg');
+.johto {
+  background-image: url('../images/johto.jpg');
   background-size: cover;
   background-position: 0px 0px;
 }
 
-.loop {
-  background-image: url('../images/loop.jpg');
+.ppl {
+  background-image: url('../images/ppl.jpg');
   background-size: cover;
   background-position: 0px 0px;
 }
 
-.fools {
-  background-image: url('../images/fools.jpg');
-  background-size: cover;
-  background-position: 0px 0px;
-}
-
-.clog {
-  background-image: url('../images/clog.jpg');
+.report {
+  background-image: url('../images/report.jpg');
   background-size: cover;
   background-position: 0px 0px;
 }
