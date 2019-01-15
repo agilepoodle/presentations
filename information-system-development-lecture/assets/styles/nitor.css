@@ -335,3 +335,9 @@ a:visited {
   background-size: contain;
   background-position: center;
 }
+
+.thankyou {
+  background-image: url('../images/thankyou.jpg');
+  background-size: contain;
+  background-position: center;
+}
