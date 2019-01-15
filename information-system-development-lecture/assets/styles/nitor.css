@@ -269,3 +269,9 @@ a:visited {
   background-size: cover;
   background-position: 0px 0px;
 }
+
+.software {
+  background-image: url('../images/software.jpg');
+  background-size: cover;
+  background-position: 0px 0px;
+}
