@@ -281,3 +281,39 @@ a:visited {
   background-size: contain;
   background-position: center;
 }
+
+.complexity {
+  background-image: url('../images/complexity.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+.simple {
+  background-image: url('../images/lego.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+.stream {
+  background-image: url('../images/stream.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+.money {
+  background-image: url('../images/money.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+.fortress {
+  background-image: url('../images/fortress.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+.problem {
+  background-image: url('../images/problem.jpg');
+  background-size: contain;
+  background-position: center;
+}
