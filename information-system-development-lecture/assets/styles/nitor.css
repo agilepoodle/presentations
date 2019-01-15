@@ -317,3 +317,15 @@ a:visited {
   background-size: contain;
   background-position: center;
 }
+
+.practice {
+  background-image: url('../images/practice.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+.capacity {
+  background-image: url('../images/capacity.jpg');
+  background-size: contain;
+  background-position: center;
+}
