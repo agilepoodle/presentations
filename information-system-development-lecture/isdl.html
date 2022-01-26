@@ -4,7 +4,7 @@
     <title>Large Software Systems</title>
     <meta charset="utf-8">
     <style>
-      @import url('assets/styles/nitor.css');
+      @import url('assets/styles/style.css');
     </style>
   </head>
   <body>
@@ -12,12 +12,10 @@
 
 class: center, middle, title
 
-![Nitor Logo](assets/images/nitor_logo_fi.png)
-
 # Large Software Systems 
 ## The Developer Perspective
 
-### Nitor x Aalto University 30.1.2020
+### CarbonLink x Aalto University 27.1.2022
 
 ???
 
@@ -29,24 +27,28 @@ class: center, middle, title
 class: center, middle, title, jam
 
 # Jussi Mononen
-## 20+ years of experience in sw
+## 22+ years of experience in sw
 ## Computers since 1980's
 ## Not just code, also people & processes
-## Telcos, financial, logistics, media, universities, gaming
-## Still Curious and passionate
+## Telcos, financial, logistics,
+## media, universities, gaming, climate
+### Still Curious and passionate
 
 ---
 
 class: center, middle, title, sisu
 
 .right[![sc-logo](./assets/images/sc.jpg)]
+.left[![carbonlink-logo](./assets/images/logo.png)]
 
 ???
 
-### Current project/customer, Supercell
-### Previous Funidata - Sisu, almost 4 yrs
+### Current: CarbonLink
+### Previous project/customer, Supercell, 2 yrs
+### Previous^2 Funidata - Sisu, 4 yrs
 ### Size: Sisu: Common business support system for 5 middle-sized listed companies
 ### Size: SC: Data, so much data! Webscale!
+### Size: CL: organization financial data
 
 ---
 
@@ -58,7 +60,7 @@ class: center, middle, title, software
 
 ### This presentation tries to describe how I see the SW world
 ### I try to describe the things I think are important in all size SW systems
-### 20 years of experience squeezed into 1,5 hours
+### 22+ years of experience squeezed into 1,5 hours
 
 ---
 
@@ -69,12 +71,13 @@ class: center, middle, title, people
 ???
 
 ### At least 50% about people
-### Cross-functionality, different skill sets, biz, design, code, ...
+### Cross-functionality, different skill sets, biz, design, code, abilities and limitations...
 ### Large projects, large amount of people, communication paths grow exponentially
 ### Communication issues, Wiio's laws
 ### When communication fails, you build the wrong thing!
 ### What to do? Who benefits? Why? We need these answers!
-### Software is for humans
+### Software is consumed by humans and other software systems
+### Value of software is for humans, usually
 ### Programming is a technical aspect, nuance, nuisance?
 ### Users, customers, business owners, developers etc.
 ### People create SW, so we need Purpose, Autonomy, Mastery (Daniel Pink)
@@ -89,12 +92,14 @@ class: center, title, middle, problem
 
 ### You need to understand the problem and domain first
 ### Not just programming! Interactions, systems of systems
+### Cascade of effects, ripple effect
 ### Large projects just have more problems to solve, larger domains etc.
-### Domain-Driven Design, Eric Evans - https://www.amazon.com/exec/obidos/ASIN/0321125215/domainlanguag-20
-### Focus on core model, Base complex design on models, match domain experts /w programmers
-### Solution oriented!
-### Best software is not written
-### Solve next problem, then next, ...
+### How to solve? One problem at a time.
+### How to solve complexity?
+* Domain-Driven Design, Eric Evans - https://www.amazon.com/exec/obidos/ASIN/0321125215/domainlanguag-20
+* Focus on core model, base complex design on models, match domain experts /w programmers, ubiquitos language
+* Solution oriented!
+* Best software is not written
 
 ---
 
@@ -107,6 +112,7 @@ class: center, title, middle, simple
 ### Google for Lego manufacturing process! Material quality, precision injection molding, high automation
 ### No over-engineering, use the most simple solution available
 ### Do not make it more complex than needed "just in case", you won't need it in the future
+### "Easy for you" does not equal "good for the system"
 ### Simple architecture is extendable and modifiable 
 
 ---
@@ -126,12 +132,13 @@ class: center, title, middle, complexity
 ### Added complexity sneaks in!
 ### Long projects tend to increase complexity
 ### Do absolute minimum that suffices
+### YAGNI - You Ain't Gonna Need It!
 ### Added complexity accrues cost!
 ### Rich Hickey - https://www.youtube.com/watch?v=rI8tNMsozo0
 ### Complex is hard to change
 ### Simplicity is a pre-requisite for reliability
 ### Intertwined things must be cosidered together - We can consider ony a few things at the same time
-### You can select only few -ilities; scalability, felxibility, upgradeability, interoperability, transactionality, auditability, usability, portability, reliability, availability etc
+### You can select only few -ilities; scalability, flexibility, upgradeability, interoperability, transactionality, auditability, usability, portability, reliability, availability etc
 
 ---
 
@@ -142,7 +149,7 @@ class: center, middle, title, validate
 ???
 
 ### Don't write software in vain!
-### Validate your business idea - Why is software needed?
+### Validate your business/feature idea - Why is this needed?
 ### If it is not needed, don't do it! 
 ### Good methods: Biz model canvas, value proposition canvas, value stream mapping etc.
 ### Service design - design sprints
@@ -163,13 +170,23 @@ class: center, middle, title, stream
 ### Concentrate on value, remove waste - especially in large projects
 ### Question everything, is it really needed?
 ### Measure the time from an idea to production (whatever production means) - Make it shorter!
-### Software has 4 types of value: create new value, maintain existing value, prevent value loss, recover from value loss
+### Software has 4 types of value: 
+* create new value
+* maintain existing value
+* prevent value loss
+* recover from value loss
 
 ---
 
 class: center, middle, title, computer
 
-# The Only reliable metric is ?
+# M E T R I C S
+
+---
+
+class: center, middle, title, computer
+
+# The Only reliable metric is _
 
 ---
 
@@ -200,6 +217,13 @@ class: center, title, middle, money
 ### Affects decisions during development
 ### Short-lived product vs long-lived
 ### All decisions must be done with TCO in mind!
+* maintenance (technology selections, environments)
+* operation costs
+* availability of skilled workers
+* new feature development
+* change requests
+* etc. 
+
 ### Maintenance, future developers
 ### No esoteric technologies without a good case, select the correct tool for the job
 
@@ -228,6 +252,7 @@ class: center, middle, title, capacity
 
 ???
 
+### What can be done with your current organization?
 ### WIP limits
 ### Hard prioritization
 ### Explicit work backlog
@@ -254,7 +279,12 @@ class: center, middle, title, practice
 ### Pairing: problems solving, learning, mentoring, sharing knowledge
 ### Same overall direction for everyone
 ### No silos (quality, design, security)
-### Teams of teams for coordination - back to communication - bounded contexts
+### Teams of teams for coordination - back to communication
+### Bounded contexts
+* isolate domains if possible
+* use ubiquitous language
+* anti-corruptiom with interfaces
+
 ### Public backward compatible API's as means of integration
 
 ---
