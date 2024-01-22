@@ -13,9 +13,9 @@
 class: center, middle, title
 
 # Large Software Systems 
-## The Developer Perspective
+## The Programmer Perspective
 
-### CarbonLink x Aalto University 31.1.2023
+### CarbonLink x Aalto University 23.1.2024
 
 ???
 
@@ -31,7 +31,7 @@ class: center, middle, title
 class: center, middle, title, jam
 
 # Jussi Mononen
-## 23+ years of experience in sw
+## Software for a living since 2000
 ## Computers since 1980's
 ## Not just code, also people & processes
 ## Telcos, financial, logistics,
@@ -43,16 +43,16 @@ class: center, middle, title, jam
 class: center, middle, title, sisu
 
 .right[![sc-logo](./assets/images/sc.jpg)]
-.left[![carbonlink-logo](./assets/images/logo.png)]
+.left[![carbonlink-logo](./assets/images/cl-logo.svg)]
 
 ???
 
 ### Current: CarbonLink
 ### Previous project/customer, Supercell, 2 yrs
-### Previous^2 Funidata - Sisu, 4 yrs
+### Previous^2 Funidata - Sisu, 4 yrs, part of the original team of 6 developers
 ### Size: Sisu: Common business support system for 5 middle-sized listed companies
 ### Size: SC: Data, so much data! Webscale!
-### Size: CL: organization financial data
+### Size: CL: organization financial data, ML
 
 ---
 
@@ -64,7 +64,7 @@ class: center, middle, title, software
 
 ### This presentation tries to describe how I see the SW world
 ### I try to describe the things I think are important in all size SW systems
-### 23+ years of experience squeezed into 1,5 hours
+### 24+ years of experience squeezed into 1,5 hours
 
 ---
 
@@ -97,7 +97,7 @@ class: center, title, middle, problem
 
 ???
 
-### You need to understand the problem and domain first
+### You need to understand the problem and domain first. Why we need SW?
 ### Not just programming! Interactions, systems of systems
 ### Cascade of effects, ripple effect
 ### Large projects just have more problems to solve, larger domains etc.
@@ -120,7 +120,8 @@ class: center, title, middle, simple
 ### No over-engineering, use the most simple solution available
 ### Do not make it more complex than needed "just in case", you won't need it in the future
 ### "Easy for you" does not equal "good for the system"
-### Simple architecture is extendable and modifiable 
+### Simple architecture is extendable and modifiable
+### Simplicity is relative! What is easy for me might not be easy for you!
 
 ---
 
@@ -133,6 +134,7 @@ class: center, title, middle, simple
 class: center, title, middle, complexity
 
 # Avoid complexity
+## Embrace simplicity
 
 ???
 
@@ -143,8 +145,8 @@ class: center, title, middle, complexity
 ### Added complexity accrues cost!
 ### Rich Hickey - https://www.youtube.com/watch?v=rI8tNMsozo0
 ### Complex is hard to change
-### Simplicity is a pre-requisite for reliability
-### Intertwined things must be cosidered together - We can consider ony a few things at the same time
+### Simplicity is a pre-requisite for reliability - Edsger W. Dijkstra
+### Intertwined things must be cosidered together - We can consider only a few things at the same time
 ### You can select only few -ilities; scalability, flexibility, upgradeability, interoperability, transactionality, auditability, usability, portability, reliability, availability etc
 
 ---
@@ -156,9 +158,9 @@ class: center, middle, title, validate
 ???
 
 ### Don't write software in vain!
-### Validate your business/feature idea - Why is this needed?
+### Validate your business/feature idea -> Why is this feature/addition/system needed?
 ### If it is not needed, don't do it! 
-### Good methods: Biz model canvas, value proposition canvas, value stream mapping etc.
+### Good methods: Biz model canvas, value proposition canvas, value stream mapping etc., A/B testing
 ### Service design - design sprints
 ### Deliver to production!
 ### What is the best way to validate software? -> delivery to real users
@@ -177,6 +179,7 @@ class: center, middle, title, stream
 ### Concentrate on value, remove waste - especially in large projects
 ### Question everything, is it really needed?
 ### Measure the time from an idea to production (whatever production means) - Make it shorter!
+### Allows you to change direction quickly
 ### Software has 4 types of value: 
 * create new value
 * maintain existing value
