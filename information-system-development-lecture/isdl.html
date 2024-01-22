@@ -75,18 +75,18 @@ class: center, middle, title, people
 ???
 
 ### At least 50% about people
-### Cross-functionality, different skill sets, biz, design, code, abilities and limitations...
+### Cross-functionality, different skill sets, location, time zones, business, design, code, infrastructure, abilities and limitations...
+### Users, customers, business owners, developers etc.
 ### Large projects, large amount of people, communication paths grow exponentially
 ### Communication issues, Wiio's laws
 #### https://en.wikipedia.org/wiki/Wiio%27s_laws
 #### Communication usually fails, except by accident.
 #### If communication can fail, it will.
-### When communication fails, you build the wrong thing!
-### What to do? Who benefits? Why? We need these answers!
+### When communication fails, you build the wrong thing! Larger losses with large systems
+### What should you do? Who benefits? Why? We need these answers!
 ### Software is consumed by humans and other software systems
 ### Value of software is for humans, usually
 ### Programming is a technical aspect, nuance, nuisance?
-### Users, customers, business owners, developers etc.
 ### People create SW, so we need Purpose, Autonomy, Mastery (Daniel Pink)
 
 ---
@@ -97,14 +97,16 @@ class: center, title, middle, problem
 
 ???
 
-### You need to understand the problem and domain first. Why we need SW?
+### You need to understand the problem and domain first. Why we need SW? What is the value?
 ### Not just programming! Interactions, systems of systems
-### Cascade of effects, ripple effect
+### Cascade of effects, ripple effects
 ### Large projects just have more problems to solve, larger domains etc.
 ### How to solve? One problem at a time.
 ### How to solve complexity?
 * Domain-Driven Design, Eric Evans - https://www.amazon.com/exec/obidos/ASIN/0321125215/domainlanguag-20
-* Focus on core model, base complex design on models, match domain experts /w programmers, ubiquitos language
+* Especially Bounded Contexts - https://martinfowler.com/bliki/BoundedContext.html
+* Focus on core models (contexts), base complex design on models, match domain experts /w programmers, ubiquitos language within bounded contexts!
+* Bound contexts - make them communicate
 * Solution oriented!
 * Best software is not written
 
@@ -122,6 +124,7 @@ class: center, title, middle, simple
 ### "Easy for you" does not equal "good for the system"
 ### Simple architecture is extendable and modifiable
 ### Simplicity is relative! What is easy for me might not be easy for you!
+### Always prioritize simplicity over complexity
 
 ---
 
@@ -146,7 +149,7 @@ class: center, title, middle, complexity
 ### Rich Hickey - https://www.youtube.com/watch?v=rI8tNMsozo0
 ### Complex is hard to change
 ### Simplicity is a pre-requisite for reliability - Edsger W. Dijkstra
-### Intertwined things must be cosidered together - We can consider only a few things at the same time
+### Intertwined things must be cosidered together - We can consider only a few things at the same time - simple things fit into your brain at once
 ### You can select only few -ilities; scalability, flexibility, upgradeability, interoperability, transactionality, auditability, usability, portability, reliability, availability etc
 
 ---
@@ -157,13 +160,14 @@ class: center, middle, title, validate
 
 ???
 
+### SW is often written based on business ideas, guessing or forecasting
 ### Don't write software in vain!
-### Validate your business/feature idea -> Why is this feature/addition/system needed?
+### Validate your business/feature idea before you start -> Why is this feature/addition/system needed?
 ### If it is not needed, don't do it! 
-### Good methods: Biz model canvas, value proposition canvas, value stream mapping etc., A/B testing
+### Good methods: Biz model canvas, value proposition canvas, value stream mapping etc., A/B testing, user studies, questionnaires etc.
 ### Service design - design sprints
 ### Deliver to production!
-### What is the best way to validate software? -> delivery to real users
+### What is the best way to validate software you made? -> delivery to real users
 ### No software survives the first contact with the user
 
 ---
@@ -214,6 +218,7 @@ class: center, middle, title, computer
 ### Real life usage can be used to validate the product
 ### Deliver to test env if prod not possible!
 ### Practice delivery!
+### Ephemereal metrics! Objectives, Decision, Information, Metrics
 
 ---
 
