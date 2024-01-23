@@ -4,9 +4,9 @@ The presentation material as used on the lecture.
 
 ## How to get the material?
 
-I have gathered most of presentaions into this github repository. You can either
+I have gathered most of presentations into this github repository. You can either
 
-* copy the html-file and the asset -directory to your computer as such
+* copy just the single html-file and the asset -directory here as such to your computer
 
 or
 
