@@ -288,6 +288,12 @@ a:visited {
   background-position: center;
 }
 
+.infinity {
+  background-image: url('../images/infinity.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
 .simple {
   background-image: url('../images/lego.jpg');
   background-size: contain;
